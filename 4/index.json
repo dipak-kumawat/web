@@ -1,0 +1,43 @@
+{
+    "matchDetails": {
+        "venue": "Stadium Name",
+        "date": "2023-11-16",
+        "teams": {
+            "team1": "Team A",
+            "team2": "Team B"
+        }
+    },
+    "liveScore": {
+        "teamScores": [
+            {
+                "teamName": "Team A",
+                "score": 150,
+                "wickets": 4,
+                "overs": 20
+            },
+            {
+                "teamName": "Team B",
+                "score": 120,
+                "wickets": 6,
+                "overs": 18
+            }
+        ],
+        "currentBatsman": {
+            "name": "Player Name",
+            "runs": 50,
+            "ballsFaced": 30
+        },
+        "recentEvents": [
+            {
+                "event": "Six",
+                "player": "Player Name",
+                "description": "Hit a six on the last ball"
+            },
+            {
+                "event": "Wicket",
+                "player": "Opponent Player",
+                "description": "Caught by Fielder"
+            }
+        ]
+    }
+}
